@@ -1,0 +1,31 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+appsettings.Development.json
+*.pfx
+*.p12
+
+# Temporary build output used during development
+/tmp/
+
+# Claude Code local settings
+.claude/settings.local.json
